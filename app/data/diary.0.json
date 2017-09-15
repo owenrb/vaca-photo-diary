@@ -1,0 +1,27 @@
+{
+  "id": 1,
+  "title": "Las Casas Filipinas de Acuzar",
+  "date": "September 2 ~ 3, 2017",
+  "introduction": "Where did you go this time? How did you find out about this place?",
+  "locationInfo": "<p>Please provide some description about the location. What is unique about this place.</p><p>Tell us about reaching the destination. Did you go there by car or via public transportation?</p>",
+  "bannerUrl": "http://www.lynne-enroute.com/numlock/wp-content/uploads/2012/11/Las-Casas-Filipinas-de-Acuzar-Bagac-Bataan-Philippines-0341-Stitch.jpg",
+  "profileUrl": "https://sheaguiba.files.wordpress.com/2014/07/las-casas-filipinas-de-acuzar-bataan-prenup-philippines-photographer-she-aguiba-wedding-photographer-3.jpg",
+  "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8612.72037998226!2d120.38562641042026!3d14.597110479125021!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3396119db4432279%3A0x3f7f6a26d0450dd2!2sLas+Casas+Filipinas+De+Acuzar!5e0!3m2!1sen!2s!4v1505331284066",
+  "highlights": [
+    {
+      "caption": "Foods",
+      "description": "Tell us about their food. ",
+      "image": "http://toninospizzaandpasta.com/wp-content/uploads/2014/04/pizza-page.png"
+    },
+    {
+      "caption": "Outdoor Pool and Beach",
+      "description": "Describe the outdoor pool and the beach.",
+      "image": "https://media-cdn.tripadvisor.com/media/photo-s/03/1a/c9/e1/batis-inspired-pool.jpg"
+    },
+    {
+      "caption": "Sidetrip",
+      "description": "Share some sidetrips during the trip. Is there any nearby location worth visiting for.",
+      "image": "https://farm2.staticflickr.com/1697/24798250026_7f4c1cf52a_o.jpg"
+    }
+  ]
+}

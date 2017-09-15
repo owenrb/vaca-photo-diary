@@ -1,0 +1,24 @@
+
+    <div id="mainslider" class="flexslider" style="background-image: url('{{$ctrl.diary.bannerUrl}}');">
+
+      <img id="mainprofile" ng-src="{{$ctrl.diary.profileUrl}}"
+           width="300px" />
+
+      <div id="headline">
+        <h1>{{$ctrl.diary.title}}</h1>
+        <h3><i>{{$ctrl.diary.date}}</i></h3>
+      </div>
+
+      <ol class="flex-control-nav flex-control-paging">
+        <li ng-repeat="item in $ctrl.range($ctrl.size)"><a href="#!/diary/{{$index}}" class="{{$ctrl.getPagingClass($index)}}">{{item}}</a></li>
+      </ol>
+
+      <ul class="flex-direction-nav">
+        <li class="flex-nav-prev">
+          <a class="flex-prev" href="{{$ctrl.prevUrl}}">Previous</a>
+        </li>
+        <li class="flex-nav-next">
+          <a class="flex-next" href="{{$ctrl.nextUrl}}">Next</a>
+        </li>
+      </ul>
+  </div>

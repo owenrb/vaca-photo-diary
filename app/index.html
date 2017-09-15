@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en" ng-app="vacationDiaries">
+  <head>
+    <meta charset="utf-8">
+    <title>Vacation Photo Diary</title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+  	<link rel="stylesheet" href="flex-slider/flexslider.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="app.css" />
+
+    <!-- Used for JavaScript animations (include this before angular.js) -->
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+    <script src="app.module.js"></script>
+    <script src="app.config.js"></script>
+    <script src="site-carousel/site-carousel.module.js"></script>
+    <script src="site-carousel/site-carousel.component.js"></script>
+    <script src="site-content/site-content.module.js"></script>
+    <script src="site-content/site-content.component.js"></script>
+  </head>
+  <body>
+
+
+    <div ng-view></div>
+
+<!--
+-->
+
+  </body>
+</html>

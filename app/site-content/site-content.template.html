@@ -1,0 +1,24 @@
+
+<div id="content">
+  <h3>Welcome to our Family Bonding Series.</h3>
+  <div id="left">
+    <span id="introduction" ng-bind-html="$ctrl.diary.introduction"></span>
+    <iframe ng-src="{{$ctrl.mapUrl}}" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+    <span id="locationInfo" ng-bind-html="$ctrl.diary.locationInfo"></span>
+  </div>
+
+
+  <div id="right">
+    <div id="hightlights">
+
+      <div ng-repeat="highlight in $ctrl.diary.highlights" class="half">
+        <h4>{{highlight.caption}}</h4>
+        <img src="{{highlight.image}}" />
+        <span ng-bind-html="highlight.description"></span>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="clear"></div>
+</div>
